@@ -1416,3 +1416,18 @@ footer>p,footer>a:last-child {
     .achievement-card { grid-template-columns:1fr; }
     .achievement-certificate { max-width:520px; margin:auto; }
 }
+.resume-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00d4ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+}
